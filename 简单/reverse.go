@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+//整数反转
 func reverse(x int) int {
 	y := 0
 	for x != 0 {

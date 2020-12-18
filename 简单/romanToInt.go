@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 罗马数字转整数
 func romanToInt(s string) (r int) {
 	pre := 0
 	for i := len(s) - 1; i >= 0; i-- {
